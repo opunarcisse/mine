@@ -1,12 +1,14 @@
 <% title "A new comment for #{@post.title}" %>
 
-  <%= user = user_logged_in? %> <br/> 
-      <%= user.firstname + " "+ user.lastname %>
+  
 
 <% form_for([@post, @comment]) do |f| %>
 
 <%= f.error_messages %>
 <p>
+  <% user = user_logged_in? %>  
+  <%=user.firstname + " "+ user.lastname %> <br/>
+  
    <%= f.label :Your_full_name %><br/> 
   <%= f.text_field :commenter  %>
 

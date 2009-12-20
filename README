@@ -6,6 +6,7 @@ p.    This application is a simple blog. It is developed using ruby on rails fra
          2 Blogers are able to post comments on these articles
          3 User authentication
          4 Restrictions for unauthenticated blogers
+         5 Error pages & Display Updates !!
          
          
 

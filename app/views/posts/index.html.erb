@@ -8,7 +8,7 @@
       <h5> Created  <%=  time_ago_in_words( post.created_at) %> ago || Upadted
     <%=  time_ago_in_words( post.updated_at) %> || has <%= "#{post.comments.count} comments "  %> </h5>
    
-  <p>      <%= simple_format post.body %> </p>
+  <p>    <%= simple_format post.body %> </p>
   
  
 

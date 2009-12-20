@@ -13,7 +13,7 @@
       <div  class="authen">   
       <% # here i check if the authentication was successul. This part is on the web pages. this is a global check point %>
       <% if logged_in? %>
-        <%= user = user_logged_in? %>
+        <% user = user_logged_in? %>
       <%= link_to "Home |", :root%>
       <%= link_to " Welcome #{user.lastname} |", user_path("#{logged_in?}")  %>
       <%= link_to "Logout", logout_path %>
