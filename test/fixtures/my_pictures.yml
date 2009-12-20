@@ -1,0 +1,9 @@
+one:
+  img_name: MyString
+  img_type: MyString
+  img_size: 1
+
+two:
+  img_name: MyString
+  img_type: MyString
+  img_size: 1

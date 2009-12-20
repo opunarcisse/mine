@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="00b10c9f-c7f9-4b36-9df5-59feca2be831" kpf_version="4" name="blog.kpf">
+<file id="eeaca653-5e05-4a3b-bc68-ab594768f42d" idref="00b10c9f-c7f9-4b36-9df5-59feca2be831/app/models" name="comment.rb" url="app/models/comment.rb">
+</file>
+<file id="362be725-d267-479f-b8d6-9c52ae43f6f4" idref="00b10c9f-c7f9-4b36-9df5-59feca2be831/public/javascripts" name="jquery-1.3.2.min.js" url="file:///home/narcisse/Desktop/jquery-1.3.2.min.js">
+</file>
+<preference-set idref="00b10c9f-c7f9-4b36-9df5-59feca2be831">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

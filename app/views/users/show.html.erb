@@ -1,0 +1,42 @@
+<% title "User #{@user.firstname}" %>
+
+<p>
+  <strong>Full Names:</strong>
+  <%=h @user.firstname    %>
+   <%=h @user.lastname %>
+      <%=h @user.id %>
+   
+</p>
+<p>
+  <strong> Contact Info:</strong>
+  <%=h @user.address %> <%= "|| Phone: #{@user.phone}"%>
+</p>
+<p>
+  <strong>E-mail:</strong>
+  <%=h @user.email %>
+</p>
+<p>
+  <strong>Password:</strong>
+  <%=h @user.hashed_password %>
+</p>
+<p>
+  <strong>Protector:</strong>
+  <%=h @user.salt %>
+</p>
+<p>
+<strong> MemberShip: </strong>
+  <%=h time_ago_in_words( @user.created_at) %> ago</p>
+
+<p>
+<%= image_tag @user.avatar_file_name %>
+
+</p>
+
+
+<p>
+  <%= link_to "Edit", edit_user_path(@user) %> |
+  <%= link_to "Destroy", @user, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", users_path %>
+</p>
+
+

@@ -1,0 +1,42 @@
+<% form_for @user, :html => { :multipart => true } do |f| %>
+  <%= f.error_messages %>
+   <p>
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname %>
+  </p>
+    <p>
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname %>
+  </p>
+      <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+    <p>
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </p>
+  <p>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </p>
+   <p>
+    <%= f.label :repassword %><br />
+    <%= f.password_field :repassword %>
+  </p>
+
+  <p>
+    <%= f.label :salt %><br />
+    <%= f.text_field :salt %>
+  </p>
+  
+  <p>
+      <%= f.label :Picture  %><br />
+      <%= f.file_field :avatar_file_name %>
+  </p>
+  <p><%= f.submit button_text ||= "Submit" %></p>
+<% end %>

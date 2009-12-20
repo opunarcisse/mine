@@ -1,0 +1,8 @@
+<% title "Edit User: #{@user.email}" %>
+
+<%= render :partial => 'form' , :locals => { :button_text => "Update"}%>
+
+<p>
+  <%= link_to "Show", @user %> |
+  <%= link_to "Back", users_path %>
+</p>

@@ -1,0 +1,15 @@
+h1.  ==   A simple blog with Ruby on Rails       ==
+
+p.    This application is a simple blog. It is developed using ruby on rails framework.
+      The features this blog consists of:
+         1 Posting article into the blog by the owner
+         2 Blogers are able to post comments on these articles
+         3 User authentication
+         4 Restrictions for unauthenticated blogers
+         
+         
+
+      I hope this application would help beginners like me in a way or another
+   
+   
+h2.   Copyright Opu Narcisse 2009 

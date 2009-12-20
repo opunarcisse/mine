@@ -1,0 +1,150 @@
+body {
+  background-color: #000;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+  padding:0px; margin:0px;
+}
+
+a img {
+  border: none;
+}
+p{
+  font-size: 13px;
+  font-family:tahoma;
+  padding: 0px 0px 2px 0px;
+  margin: 0px;
+}
+h3
+{
+  color: blue;
+  font-weight: normal;
+  font-family: tahoma;
+  font-size: 15px;
+}
+h2
+{background-color: #999; }
+h5
+{ margin: 0px; padding: 0px; color: #444; font-weight: normal; }
+
+table th
+{
+text-align: left;
+border: solid 1px #888;
+}
+table td
+{
+ border-bottom: solid 1px #999; 
+}
+a
+{
+  
+  color: #555987;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+  color: blue;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 65%;
+  margin: 20px auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: none 0px #333333;
+  margin-top: 0px;
+}
+
+
+#flash_notice, #flash_error {
+  padding: 5px 8px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+#flash_notice {
+  background-color: #0404B4;
+  border: solid 1px blue;
+}
+
+#flash_error {
+  background-color: #B40404;
+  border: solid 1px red;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+#footer
+{
+background-color: blue;
+padding: 5px;
+}
+#footer p
+{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+#content
+{
+  padding: 14px 20px;
+  border: solid 1px #999;
+  margin: 5px 70px;
+}
+#header
+{
+  background-color: #D8D8D8;
+ /*text-align: center;*/
+ padding: 5px;
+  
+}
+#header .authen
+{
+  text-align: right;
+  padding-right: 5px;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+#errorExplanation ul {
+  margin: 2px 24px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: disc;
+}
